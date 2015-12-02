@@ -1,0 +1,6 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+
+A: It creates a hidden .Git file that sets up the current directory to be
+used as a Git repository. So it can track the files in the directory, what
+has and hasn't been commited/added/pushed.
+ 
