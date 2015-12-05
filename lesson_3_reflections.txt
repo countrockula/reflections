@@ -3,3 +3,44 @@ your work local?
 
 A: If you know that you'll be using different computers, and/or if you're 
 working with other people using different machines.
+
+
+Q: Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+A: You wouldn't want Git to automatically do pulls because it could alter 
+local files that you don't want to be altered, or at least not just yet. If 
+someone else is working on the same files it could cause conflicts.
+
+
+Q: Describe the difference between forks, clones, and branches. When would you 
+use one instead of another?
+
+A: A clone is a copy of a remote repository on your local machine. A branches 
+are timelines of work done in the form of commits. They all have paths that can
+be traced back to aroot or initial beginning point. A fork is a clone made from
+one GitHub repository of one user/users to another user/users GitHub 
+repository.
+I would use a clone when I wanted to work on files on my local machine. I would
+create branches when I wanted to try experimental/alternate versions of my 
+program. I would use a fork if I wanted to modify someone else's work on GitHub
+without directly altering their work on their own repository.
+
+
+Q: What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+A: So you can see how many, and what commits you have created, compared to copy
+of the last known state of the remote.
+
+
+Q: How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+A: Without Git/GitHub I would collaborate by maybe assigning different and 
+specific tasks to each member of the team. Then I would have regular, frequent
+meetings to track progress, and how the different tasks assigned fit together.
+It would be harder to do because there would be more of a setup (assigning who
+got what tasks, figuring out what tasks need to be done.). Also, it's more time
+consuming. One aspect that might be seen as being easier, is that the team 
+wouldn't have to take the time to initially learn Git. 
